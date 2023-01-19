@@ -1,0 +1,42 @@
+.fondoAlbunes{
+    background-image: url(../img/albunes/PUSDX6VIOJAOBOFDHVASHJZSJ4-d06IqK.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    .tituloAlbun {
+        font-size: 3rem;
+        text-align: center;
+        color: white;
+    
+        
+       
+    }
+
+ .textoInformativo {
+            margin-left: 20px;
+            font-size: 2em;
+            color: white;
+            font-weight: 300;
+        }
+
+.cards-albunes{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    margin-top: 90px;
+    gap: 5px;
+        
+            .cards {
+                text-align: center;
+                width: 25%;
+                height: auto;
+                
+            }
+
+
+        }
+
+}
